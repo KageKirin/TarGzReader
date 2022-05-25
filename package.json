@@ -1,0 +1,32 @@
+{
+    "name": "com.kagekirin.targzreader",
+    "version": "0.0.0",
+    "displayName": "TarGzReader",
+    "description": "Simple C# reader for .tar, .tar.gz or .tgz files.",
+    "unity": "2021.1^",
+    "files": [
+        "Assets/Scripts/TarGzReader/**",
+        "Assets/Scripts/TarGzReader.meta",
+        "Assets/Scripts.meta",
+        "**.meta"
+    ],
+    "dependencies": {},
+    "keywords": [
+        "skeleton",
+        "debug",
+        "mesh generator"
+    ],
+    "author": {
+        "name": "KageKirin",
+        "email": "kagekirin@gmail.com",
+        "url": "https://github.com/kagekirin"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KageKirin/TarGzReader.git",
+        "directory": "com.kagekirin.targzreader"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/@kagekirin"
+    }
+}
