@@ -1,5 +1,10 @@
-## .gitignore for com.kagekirin.csharpier
+## .gitignore for com.kagekirin.targzreader
 
 ## artifacts from running npm pack
 *.tar.gz
 *.tgz
+
+Assets/Scripts/TarGzReader/Editor.meta
+Assets/Scripts/TarGzReader/Editor/*.meta
+Assets/Scripts/TarGzReader/Editor/*.cs
+Assets/Scripts/TarGzReader/Editor/

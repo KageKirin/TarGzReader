@@ -5,7 +5,8 @@
     "description": "Simple C# reader for .tar, .tar.gz or .tgz files.",
     "unity": "2021.1^",
     "files": [
-        "Assets/Scripts/TarGzReader/**",
+        "Assets/Scripts/TarGzReader/*.cs.meta",
+        "Assets/Scripts/TarGzReader/*.cs",
         "Assets/Scripts/TarGzReader.meta",
         "Assets/Scripts.meta",
         "**.meta"
