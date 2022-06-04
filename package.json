@@ -1,6 +1,6 @@
 {
     "name": "com.kagekirin.targzreader",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "displayName": "TarGzReader",
     "description": "Simple C# reader for .tar, .tar.gz or .tgz files.",
     "unity": "2021.1^",
