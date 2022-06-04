@@ -22,7 +22,8 @@ jobs:
 
       - name: Remove superfluous metafiles we do not want to pack
         run: |
-            rm Assets/Editor.meta
+          rm -r Assets/Editor*
+          rm -r Assets/Scripts/TarGzReader/Editor*
 
       - name: Pack
         run: npm pack
@@ -76,7 +77,8 @@ jobs:
 
       - name: Remove superfluous metafiles we do not want to pack
         run: |
-          rm Assets/Editor.meta
+          rm -r Assets/Editor*
+          rm -r Assets/Scripts/TarGzReader/Editor*
 
       - name: Publish to GitHub NPM Registry
         run: npm publish --access public
@@ -104,7 +106,8 @@ jobs:
 
       - name: Remove superfluous metafiles we do not want to pack
         run: |
-          rm Assets/Editor.meta
+          rm -r Assets/Editor*
+          rm -r Assets/Scripts/TarGzReader/Editor*
 
       - name: Publish to NPM.JS Registry
         run: npm publish --access public
