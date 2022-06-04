@@ -20,7 +20,8 @@ jobs:
 
       - name: Remove superfluous metafiles we do not want to pack
         run: |
-          rm Assets/Editor.meta
+          rm -r Assets/Editor*
+          rm -r Assets/Scripts/TarGzReader/Editor*
 
       - name: Pack
         run: npm pack
