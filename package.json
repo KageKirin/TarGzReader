@@ -7,6 +7,7 @@
     "files": [
         "Assets/Scripts/TarGzReader/*.cs.meta",
         "Assets/Scripts/TarGzReader/*.cs",
+        "Assets/Scripts/TarGzReader/*.asmdef",
         "Assets/Scripts/TarGzReader.meta",
         "Assets/Scripts.meta",
         "**.meta"
